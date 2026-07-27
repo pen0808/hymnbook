@@ -2,7 +2,7 @@ function Hymn2(){
   return(
     <section className="outer-container">
       <div className="container">
-        <h1>2. Abide With Me Come</h1>
+        <h1>2. Abide With Me</h1>
       
       <div className="verses">
         <ol>
