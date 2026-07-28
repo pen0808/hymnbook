@@ -52,3 +52,28 @@ li{
   row-gap: 0.5rem;
   margin-top: 2rem;
 }
+
+@media screen and (max-width: 480px){
+  .container{
+    width: 90%;
+  }
+}
+
+@media screen and (min-width: 480px) and (max-width: 768px){
+  .container{
+    width: 70%;
+  }
+}
+
+@media screen and (min-width: 768px) and (max-width: 1024px){
+  .container{
+    width: 60%;
+  }
+}
+
+@media screen and (min-width: 1024px){
+  .container{
+    width: 50%;
+  }
+}
+
