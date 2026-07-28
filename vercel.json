@@ -1,13 +1,8 @@
 {
   "rewrites": [
-    { "source": "/hymnbook/(.*)", "destination": "/hymnbook/index.html" }
-  ],
-  "headers": [
     {
-      "source": "/hymnbook/assets/(.*)",
-      "headers": [
-        { "key": "Cache-Control", "value": "public, max-age=31536000, immutable" }
-      ]
+      "source": "/(.*)",
+      "destination": "/index.html"
     }
   ]
 }
